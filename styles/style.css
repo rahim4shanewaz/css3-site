@@ -76,8 +76,8 @@ hr{
     grid-row-gap:30px
 }
 .course{
-    width: 250px;
-    height: 270px;
+    width: 260px;
+    height: 290px;
     background-color: rgb(252, 249, 249);
     border-radius: 10px;
 }
@@ -89,3 +89,73 @@ hr{
     height: 104px;
     margin-left: 10px;
 }
+#author-name{
+    margin-left: 10px;
+    color: #ED6B4F;
+    margin-left: 16px;
+}
+.ratings{
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#rating-details{
+    color: #FFC014;
+}
+#clock{
+    background-color: #FFE4E8;
+    border-radius: 14px;
+    width: 65px;
+    height: 30px;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    color: #FF4A60;
+}
+@media only screen and (max-width: 688px) {
+    .container{
+        width: 100%;
+    }
+    .container-next{
+        width: 100%;
+    }
+    .players{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .player{
+        flex-direction: column;
+    }
+   .blogs{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+   .blog{
+    flex-direction: column;
+   }
+   .blog-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   }
+   .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+    
+    .courses{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+    

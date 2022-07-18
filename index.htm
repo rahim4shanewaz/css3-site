@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/c89ad8ec1d.js" crossorigin="anonymous"></script>
     <title>Leader-Board</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
     <main>
         <section class="container">
            <div class="top-players ">
-            <h2 class="section-title">Top Players</h2>
+           <div class="title"> <h2 class="section-title">Top Players</h2></div>
                 <div class="players">
                     <div class="player">
                         <img src="images/players/player-1.png" alt="">
@@ -47,11 +48,11 @@
         </section>
         <section class="container-next">
             <div class="top-blog ">
-             <h2 class="section-title">Top Blog</h2>
+             <div class="title"><h2 class="section-title">Top Blog</h2></div>
                  <div class="blogs">
                      <div class="blog">
                          <img src="images/blogs/blog-1.png" alt="">
-                         <div>
+                         <div class="blog-name">
                             <h3 class="heading-line">13 of My Favorite 
                                 UI/UX Goodies</h3>
                             <h5 class="author-name"><span id="by">By</span> Danny Sapio</h5>
@@ -60,21 +61,21 @@
                      </div>
                      <div class="blog">
                          <img src="images/blogs/blog-2.png" alt="">
-                         <div>
+                         <div class="blog-name">
                             <h3 class="heading-line">UI cheat sheet:
                             list vs grids</h3>
                             <h5 class="author-name"><span id="by"> By</span> Tess Gadd</h5></div>
                      </div>
                      <div class="blog">
                          <img src="images/blogs/blog-3.png" alt="">
-                         <div>
+                         <div class="blog-name">
                             <h3 class="heading-line">7 typography tips
                             for interface design</h3>
                             <h5 class="author-name"><span id="by"> By</span> Jeremiah Lam</h5></div>
                      </div>
                      <div class="blog">
                          <img src="images/blogs/blog-4.png" alt="">
-                         <div>
+                         <div class="blog-name">
                             <h3 class="heading-line">Your logo is
                             copied</h3>
                             <h5 class="author-name"><span id="by"> By</span> Ferdinand Vogler</h5></div>
@@ -86,29 +87,71 @@
          </section>
          <section class="container-next">
             <div class="top-blog">
-             <h2 class="section-title">Latest Course</h2>
+            <div class="title"> <h2 class="section-title">Latest Course</h2></div>
                  <div class="courses">
                      <div class="course">
                          <img src="images/courses/course-1.png" alt="">
                          <div>
                             <h3 class="heading-line">React - The Complete Guide 2020</h3>
-                            <h5 class="author-name"><span id="by">By</span> Danny Sapio</h5>
+                            <h5 id="author-name">Reed Krakoff.</h5>
+                            <div class="ratings">
+                                <div id="rating-details">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <p>4.5</p>
+                                <div id="clock">
+                                    <i class="far fa-clock">1.30hr</i>
+                                </div>
+                            </div>
                          </div>
                          
                      </div>
                      <div class="course">
-                         <img src="images/courses/course-2.png" alt="">
-                         <div>
-                            <h3 class="heading-line">Powerpoint 2020 Master Powerpoint Cour</h3>
-                            <h5 class="author-name"><span id="by"> By</span> Tess Gadd</h5></div>
-                     </div>
-                     <div class="course">
-                         <img src="images/courses/course-3.png" alt="">
-                         <div>
-                            <h3 class="heading-line">The Complete JavaScript 
-                                Course 2020</h3>
-                            <h5 class="author-name"><span id="by"> By</span> Jeremiah Lam</h5></div>
-                     </div>
+                        <img src="images/courses/course-2.png" alt="">
+                        <div>
+                           <h3 class="heading-line">Powerpoint 2020 Master Powerpoint Course</h3>
+                           <h5 id="author-name">Walter Scott.</h5>
+                           <div class="ratings">
+                               <div id="rating-details">
+                                   <i class="fa-solid fa-star"></i>
+                                   <i class="fa-solid fa-star"></i>
+                                   <i class="fa-solid fa-star"></i>
+                                   <i class="fa-solid fa-star"></i>
+                                   <i class="fa-solid fa-star-half-stroke"></i>
+                               </div>
+                               <p>4.5</p>
+                               <div id="clock">
+                                   <i class="far fa-clock">1.30hr</i>
+                               </div>
+                           </div>
+                        </div>
+                        
+                    </div>
+                    <div class="course">
+                        <img src="images/courses/course-3.png" alt="">
+                        <div>
+                           <h3 class="heading-line">The Complete JavaScript Course 2020</h3>
+                           <h5 id="author-name">Reed Krakoff.</h5>
+                           <div class="ratings">
+                               <div id="rating-details">
+                                   <i class="fa-solid fa-star"></i>
+                                   <i class="fa-solid fa-star"></i>
+                                   <i class="fa-solid fa-star"></i>
+                                   <i class="fa-solid fa-star"></i>
+                                   <i class="fa-solid fa-star-half-stroke"></i>
+                               </div>
+                               <p>4.5</p>
+                               <div id="clock">
+                                   <i class="far fa-clock">1.30hr</i>
+                               </div>
+                           </div>
+                        </div>
+                        
+                    </div>
                      
                      
                  </div>
